@@ -16,6 +16,8 @@ This is an example project that I have created for animation transitioning with 
 - raylib
 - entt
 
+`Animations should be in sprite based and should be in nx1 format. For example, if you have a sprite sheet that has 4 frames, it should be 4x1, and each animation should be in its own separate sprite sheet.`
+
 ## Installation
 
 1. Clone the repository with recursive flag to get the submodules. `git clone --recursive https://github.com/burakssen/AnimationSystem.git`

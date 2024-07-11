@@ -29,3 +29,7 @@ This is an example project that I have created for animation transitioning with 
 
 - Use `W`, `A`, `S`, `D` to move the player.
 - Use `ESC` to close.
+
+## Assets
+
+- [pixel-isometric-tiles](https://scrabling.itch.io/pixel-isometric-tiles) from scrabling

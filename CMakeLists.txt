@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.29)
-project(entt_raylib_integration)
+project(AnimationSystem)
 
 set(CMAKE_CXX_STANDARD 23)
 
@@ -21,10 +21,10 @@ set(INCLUDE_DIRECTORIES
     "${VENDOR_DIR}/entt/src"
 )
 
-add_executable(entt_raylib_integration ${SOURCE_FILES})
+add_executable(AnimationSystem ${SOURCE_FILES})
 
-target_include_directories(entt_raylib_integration PUBLIC ${INCLUDE_DIRECTORIES})
+target_include_directories(AnimationSystem PUBLIC ${INCLUDE_DIRECTORIES})
 
-target_link_libraries(entt_raylib_integration PUBLIC raylib)
+target_link_libraries(AnimationSystem PUBLIC raylib)
 
 #file(COPY "resources" DESTINATION "${CMAKE_BINARY_DIR}")
